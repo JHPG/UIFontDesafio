@@ -18,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu Nome Aqui" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzA-OR-plT">
-                                <rect key="frame" x="18" y="182" width="564" height="57.5"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <rect key="frame" x="18" y="182" width="564" height="68"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fontes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjb-Cu-An2">
-                                <rect key="frame" x="16" y="244.5" width="568" height="20.5"/>
+                                <rect key="frame" x="16" y="255" width="568" height="20.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Ynw-o8-P7T"/>
@@ -43,7 +43,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-iX-Ab5">
-                                <rect key="frame" x="16" y="326" width="568" height="80"/>
+                                <rect key="frame" x="16" y="336.5" width="568" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="141" id="VG5-lf-t8o"/>
                                     <constraint firstAttribute="height" constant="63" id="z93-rc-Gov"/>
@@ -69,12 +69,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtH-GL-Pf2">
-                                <rect key="frame" x="16" y="411" width="568" height="32"/>
+                                <rect key="frame" x="16" y="421.5" width="568" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="pY0-vY-aah"/>
                                     <constraint firstAttribute="height" constant="32" id="x3l-Mr-FpX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
                                 <state key="normal" title="Papyrus">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-lB-hOY">
-                                <rect key="frame" x="16" y="448" width="568" height="35"/>
+                                <rect key="frame" x="16" y="469.5" width="568" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="eeK-wW-U61"/>
                                     <constraint firstAttribute="width" constant="145" id="uef-zC-fr7"/>
@@ -200,7 +200,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8x-Ey-yAJ">
-                                <rect key="frame" x="16" y="285" width="568" height="36"/>
+                                <rect key="frame" x="16" y="295.5" width="568" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Helvetica">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -251,6 +251,7 @@
                             <constraint firstItem="Pjb-Cu-An2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ZDa-VO-bXw">
                                 <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="Jem-Kr-XGc" firstAttribute="centerY" secondItem="GIp-cW-wMi" secondAttribute="centerY" id="ZuE-uM-6Ou"/>
                             <constraint firstItem="jlb-lB-hOY" firstAttribute="top" secondItem="FtH-GL-Pf2" secondAttribute="bottom" constant="5" id="a06-yM-XjQ"/>
                             <constraint firstItem="kq4-iX-Ab5" firstAttribute="top" secondItem="t8x-Ey-yAJ" secondAttribute="bottom" constant="5" id="cNx-Tl-25i"/>
                             <constraint firstAttribute="centerX" secondItem="kq4-iX-Ab5" secondAttribute="centerX" id="eTf-ir-9r7"/>
@@ -298,6 +299,7 @@
                                 <exclude reference="zcr-NQ-Jpe"/>
                                 <exclude reference="1sX-zX-Sus"/>
                                 <exclude reference="O9J-Hn-iUQ"/>
+                                <exclude reference="4t3-qF-UPP"/>
                                 <exclude reference="Kbx-8i-L9M"/>
                                 <exclude reference="WMa-Ch-1lo"/>
                             </mask>

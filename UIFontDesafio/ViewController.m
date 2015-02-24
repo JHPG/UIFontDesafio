@@ -30,6 +30,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)mudarFont:(id)sender{   //Completar
+    UIButton *btn = (UIButton *) sender;
+    
+    [_txNome setFont:[UIFont fontWithName:[[btn titleLabel] text] size: 20]];
+    
+}
+
 - (IBAction)btAlterar:(id)sender {
     _lbNome.text = [_txNome text];
     //[self.view endEditing:YES];
@@ -52,11 +60,7 @@
     [_lbNome setFont: [UIFont fontWithName:@"Courier New" size:20]];
 }
 
-- (IBAction)mudarFont:(id)sender{   //Completar
-    UIButton *btn = (UIButton *) sender;
-    
-    [_txNome setFont:[UIFont fontWithName:[[btn titleLabel] text] size: 20]];
-}
+
 
 
 
