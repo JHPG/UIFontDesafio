@@ -18,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu Nome Aqui" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzA-OR-plT">
-                                <rect key="frame" x="18" y="172" width="564" height="57.5"/>
+                                <rect key="frame" x="18" y="182" width="564" height="57.5"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fontes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjb-Cu-An2">
-                                <rect key="frame" x="16" y="234.5" width="568" height="20.5"/>
+                                <rect key="frame" x="16" y="244.5" width="568" height="20.5"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Ynw-o8-P7T"/>
@@ -43,7 +43,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-iX-Ab5">
-                                <rect key="frame" x="16" y="316" width="568" height="80"/>
+                                <rect key="frame" x="16" y="326" width="568" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="141" id="VG5-lf-t8o"/>
                                     <constraint firstAttribute="height" constant="63" id="z93-rc-Gov"/>
@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtH-GL-Pf2">
-                                <rect key="frame" x="16" y="401" width="568" height="32"/>
+                                <rect key="frame" x="16" y="411" width="568" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="pY0-vY-aah"/>
                                     <constraint firstAttribute="height" constant="32" id="x3l-Mr-FpX"/>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-lB-hOY">
-                                <rect key="frame" x="16" y="438" width="568" height="35"/>
+                                <rect key="frame" x="16" y="448" width="568" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="eeK-wW-U61"/>
                                     <constraint firstAttribute="width" constant="145" id="uef-zC-fr7"/>
@@ -200,7 +200,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8x-Ey-yAJ">
-                                <rect key="frame" x="16" y="275" width="568" height="36"/>
+                                <rect key="frame" x="16" y="285" width="568" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Helvetica">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -237,7 +237,7 @@
                             <constraint firstItem="jlb-lB-hOY" firstAttribute="top" secondItem="FtH-GL-Pf2" secondAttribute="bottom" constant="25" id="O9J-Hn-iUQ"/>
                             <constraint firstItem="z1c-f6-Jwh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="R6y-9v-Be7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rzA-OR-plT" secondAttribute="trailing" constant="2" id="SAq-BN-w4N"/>
-                            <constraint firstItem="rzA-OR-plT" firstAttribute="top" secondItem="4gp-L1-eKK" secondAttribute="bottom" constant="10" id="T4h-tI-spF"/>
+                            <constraint firstItem="rzA-OR-plT" firstAttribute="top" secondItem="4gp-L1-eKK" secondAttribute="bottom" constant="20" id="T4h-tI-spF"/>
                             <constraint firstItem="Pjb-Cu-An2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Tft-UJ-xtn">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
@@ -296,10 +296,10 @@
                                 <exclude reference="jmm-e8-bbl"/>
                                 <exclude reference="uEX-ha-wob"/>
                                 <exclude reference="zcr-NQ-Jpe"/>
-                                <exclude reference="Kbx-8i-L9M"/>
-                                <exclude reference="WMa-Ch-1lo"/>
                                 <exclude reference="1sX-zX-Sus"/>
                                 <exclude reference="O9J-Hn-iUQ"/>
+                                <exclude reference="Kbx-8i-L9M"/>
+                                <exclude reference="WMa-Ch-1lo"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -322,10 +322,10 @@
                                 <exclude reference="jmm-e8-bbl"/>
                                 <include reference="uEX-ha-wob"/>
                                 <include reference="zcr-NQ-Jpe"/>
-                                <include reference="Kbx-8i-L9M"/>
-                                <include reference="WMa-Ch-1lo"/>
                                 <include reference="1sX-zX-Sus"/>
                                 <exclude reference="O9J-Hn-iUQ"/>
+                                <include reference="Kbx-8i-L9M"/>
+                                <include reference="WMa-Ch-1lo"/>
                             </mask>
                         </variation>
                     </view>

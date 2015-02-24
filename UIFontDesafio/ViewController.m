@@ -25,17 +25,34 @@
 }
 
 - (IBAction)btAlterar:(id)sender {
+    _lbNome.text = [_txNome text];
 }
 
 - (IBAction)btHelvetica:(id)sender {
+    //_lbNome.font = [UIFont fontWithName:@"Helvetica" size:20];
+    [_lbNome setFont: [UIFont fontWithName:@"Helvetica" size:20]];
 }
 
 - (IBAction)btZapfino:(id)sender {
+    [_lbNome setFont: [UIFont fontWithName:@"Zapfino" size:20]];
 }
 
 - (IBAction)btPapyrus:(id)sender {
+    [_lbNome setFont: [UIFont fontWithName:@"Papyrus" size:20]];
 }
 
 - (IBAction)btCourierNew:(id)sender {
+    [_lbNome setFont: [UIFont fontWithName:@"Courier New" size:20]];
 }
+
+
+
+- (IBAction)mudarFont:(id)sender{
+    UIButton *btn = (UIButton *) sender;
+    
+    [_txNome setFont:[UIFont fontWithName:[[btn titleLabel] text] size: 20]];
+    
+}
+
+
 @end
