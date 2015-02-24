@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,10 +28,10 @@
 
 - (IBAction)btAlterar:(id)sender {
     _lbNome.text = [_txNome text];
+    [self.view endEditing:YES];
 }
 
 - (IBAction)btHelvetica:(id)sender {
-    //_lbNome.font = [UIFont fontWithName:@"Helvetica" size:20];
     [_lbNome setFont: [UIFont fontWithName:@"Helvetica" size:20]];
 }
 
@@ -45,13 +47,14 @@
     [_lbNome setFont: [UIFont fontWithName:@"Courier New" size:20]];
 }
 
-
-
-- (IBAction)mudarFont:(id)sender{
+- (IBAction)mudarFont:(id)sender{   //Completar
     UIButton *btn = (UIButton *) sender;
     
     [_txNome setFont:[UIFont fontWithName:[[btn titleLabel] text] size: 20]];
-    
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
 }
 
 

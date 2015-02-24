@@ -21,7 +21,7 @@
 - (IBAction)btPapyrus:(id)sender;
 - (IBAction)btCourierNew:(id)sender;
 
-- (IBAction)mudarFont:(id)sender;
+- (IBAction)mudarFont:(id)sender;   //Arrumar
 
 
 
