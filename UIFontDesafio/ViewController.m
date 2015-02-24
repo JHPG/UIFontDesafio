@@ -24,4 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btAlterar:(id)sender {
+}
+
+- (IBAction)btHelvetica:(id)sender {
+}
+
+- (IBAction)btZapfino:(id)sender {
+}
+
+- (IBAction)btPapyrus:(id)sender {
+}
+
+- (IBAction)btCourierNew:(id)sender {
+}
 @end
